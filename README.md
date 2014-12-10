@@ -14,10 +14,6 @@ The Winston Airbrake transport is available as the global variable named: `Winst
 Example configuration looks like this:
 
 ``` js
-
-so it can be used as follows:
-
-``` js
 var options = {
     "level": "error", // Default is info, but probably don't want all your logs to be send to Airbrake
     "apiKey": "YOUR_API_KEY",
@@ -26,6 +22,7 @@ var options = {
     "protocol": "https",
     "handleExceptions": true
 };
+
 
 Winston.add(Winston_Loggly, options);
 Winston.add(Winston_Airbrake, airbrakeOptions);
