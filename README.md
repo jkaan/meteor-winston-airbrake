@@ -24,7 +24,6 @@ var options = {
 };
 
 
-Winston.add(Winston_Loggly, options);
 Winston.add(Winston_Airbrake, airbrakeOptions);
 
 Winston.error("Hit teh airbrakes!");
