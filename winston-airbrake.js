@@ -1,1 +1,1 @@
-Winston_Airbrake = Npm.require("winston-airbrake").Airbrake;
+Winston_Airbrake = Npm.require("winston-airbrake-2").Airbrake;
