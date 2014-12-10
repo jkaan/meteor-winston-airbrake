@@ -2,7 +2,7 @@ Package.describe({
   name: 'joeykaan:meteor-winston-airbrake',
   summary: 'Wrapper around winston-airbrake to use in projects using Meteor',
   version: '0.1.1',
-  git: ''
+  git: 'https://github.com/jkaan/meteor-winston-airbrake.git'
 });
 
 Npm.depends({
